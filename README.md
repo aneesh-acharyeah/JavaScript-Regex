@@ -145,3 +145,23 @@ Flags modify the behavior of the regular expression.
     console.log(match[1]); // 2024
 
 
+## Useful Links
+
+Here are some useful resources to learn and master JavaScript regular expressions:
+
+- [MDN Web Docs - Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) 
+  ![MDN](https://img.shields.io/badge/MDN-Regular_Expressions-blue)
+  
+- [Regex101 - Interactive Regex Tester](https://regex101.com/)
+  ![Regex101](https://img.shields.io/badge/Regex101-Interactive_Tester-orange)
+  
+- [Regular Expressions Cheatsheet](https://www.rexegg.com/regex-quickstart.html)
+  ![RexEgg](https://img.shields.io/badge/RexEgg-Quickstart-green)
+
+- [Regexr - Online Regex Tool](https://regexr.com/)
+  ![Regexr](https://img.shields.io/badge/Regexr-Online_Tool-red)
+  
+- [Regex Tutorial on W3Schools](https://www.w3schools.com/js/js_regexp.asp) 
+  ![W3Schools](https://img.shields.io/badge/W3Schools-Regex_Tutorial-purple)
+
+
