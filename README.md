@@ -126,3 +126,22 @@ Flags modify the behavior of the regular expression.
    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
    const email = "example@example.com";
    console.log(regex.test(email)); // true
+
+
+2. **Match a Phone Number**:
+   
+   ```javascript
+const regex = /^\d{3}-\d{3}-\d{4}$/;
+const phone = "123-456-7890";
+console.log(regex.test(phone)); // true
+
+3. **Extract Dates**:
+
+   ```javascript
+const regex = /(\d{4})-(\d{2})-(\d{2})/;
+const date = "2024-11-23";
+const match = date.match(regex);
+console.log(match[0]); // 2024-11-23
+console.log(match[1]); // 2024
+
+
