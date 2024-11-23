@@ -138,10 +138,10 @@ Flags modify the behavior of the regular expression.
 3. **Extract Dates**:
    
    ```javascript
-  const regex = /(\d{4})-(\d{2})-(\d{2})/;
-  const date = "2024-11-23";
-  const match = date.match(regex);
-  console.log(match[0]); // 2024-11-23
-  console.log(match[1]); // 2024
+    const regex = /(\d{4})-(\d{2})-(\d{2})/;
+    const date = "2024-11-23";
+    const match = date.match(regex);
+    console.log(match[0]); // 2024-11-23
+    console.log(match[1]); // 2024
 
 
